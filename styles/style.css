@@ -1,0 +1,102 @@
+nav {
+	background-color: black;
+	color: white;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 9;
+}
+
+@media only screen and (min-width: 768px) {
+.navList {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0px;
+}
+
+.navItem {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+.navList {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	justify-content: start;
+	align-items: start;
+	margin-bottom: 0px;
+	margin-left: 1rem;
+	margin-right: 0px;
+}
+
+.about {
+	padding-left: 16px;
+}
+
+}
+
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+	color: darkgrey;
+	text-decoration: none;
+}
+h2 {
+	margin-top: 5rem;
+}
+
+.about {
+	text-align: left;
+}
+
+
+.interests {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.interestsContent {
+	display: flex;
+	margin: 0px;
+
+}
+
+#interestDescription {
+	word-wrap: normal;
+	text-align: justify;
+}
+
+h4 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#carouselCaption {
+	font-size: 16px;
+	
+}
+
+#carouselCaption2 {
+	font-size: 16px;
+	color: black;
+}
+
+
+.eye {
+	width: 400px;
+}
+
+.imgLink {
+	height: 50px;
+}
