@@ -34,7 +34,7 @@ nav {
 	flex-direction: row;
 	list-style-type: none;
 	justify-content: space-between;
-	align-items: start;
+	
 	margin-bottom: 0px;
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -103,4 +103,8 @@ h4 {
 
 .imgLink {
 	height: 50px;
+}
+
+.foot {
+	font-size: 12px;
 }
